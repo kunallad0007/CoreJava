@@ -1,0 +1,29 @@
+package ControlStatements;
+
+public class SwitchCase
+{
+	public void checkVowels(char ch)
+	{
+		switch(ch)
+		{
+			case 'a' || 'A':
+				System.out.println("It is a Vowel !");
+				break;
+			case 'e' || 'E':
+				System.out.println("It is a Vowel !");
+			    break;
+			case 'i' || 'I':
+				System.out.println("It is a Vowel !");
+				break;
+			case 'o' || 'O':
+				System.out.println("It is a Vowel !");
+				break;
+			case 'u' || 'U':
+				System.out.println("It is a Vowel !");
+				break;
+			default:
+				System.out.println("It is not a Vowel !");
+		}
+				
+	}
+}

@@ -1,0 +1,85 @@
+import Operators.*;
+import ControlStatements.*;
+import Input.*;
+
+public class MainApp 
+{
+	public static void main(String[] args) 
+	{
+		//Let's create objects first
+		IfandElse Obj1 = new IfandElse();
+		SwitchCase Obj2 = new SwitchCase();
+		MyInput myInput = new MyInput();
+		
+		//Control Statements
+		/*
+		//if else
+		//Now let's take input (int)
+		int n1 = myInput.getInt("Enter an Integer to check the eligibility... ");
+		
+		
+		
+		Obj1.checkLicenseAge(n1);//Checking Age eligibility
+		Obj1.checkDrivingLicenseAge(n1);//Checking Driving License Age
+		Obj1.checkAgeEligibilityFun(n1);//Checking Age Eligibility with some fun
+		*/
+		
+		//Switch Case
+		//Now let's take input (char)
+		char ch = myInput.getChar("Enter character to check if it is a vowel or not... ");
+		
+		myInput.closeScanner();
+		/*
+		//package Operators
+		ArithmeticOperators aObj = new ArithmeticOperators();
+		LogicalOperators lObj = new LogicalOperators();
+		RelationalOperators rObj = new RelationalOperators();
+		//Realtional Operators
+		int a = 20, b = 10;
+		System.out.println("Using Equals To Method from RelationalOperators Class... " + rObj.equalsTo(a,b));
+		System.out.println();
+		System.out.println("Using Not Equals To Method from RelationalOperators Class... " + rObj.notEqualsTo(a,b));
+		System.out.println();
+		System.out.println("Using Less Than Method from RelationalOperators Class... " + rObj.lessThan(a,b));
+		System.out.println();
+		System.out.println("Using Less Than Equals To Method from RelationalOperators Class... " + rObj.lessThenEqualsTo(a,b));
+		System.out.println();
+		System.out.println("Using Greater Then Method from RelationalOperators Class... " + rObj.greaterThen(a,b));
+		System.out.println();
+		System.out.println("Using Greater Then Equals To Method from RelationalOperators Class... " + rObj.greaterThenEqualsTo(a,b));
+		System.out.println();
+		
+		//Arithmetic Operations
+		int c = 20, d = 10;
+		System.out.println("Using add method from ArithmeticOperators Class... " + aObj.add(c,d));
+		System.out.println();
+		System.out.println("Using sub method from ArithmeticOperators Class... "+ aObj.sub(c,d));
+		System.out.println();
+		System.out.println("Using Multiply method from ArithmeticOperators Class... "+ aObj.mul(c,d));
+		System.out.println();
+		System.out.println("Using divide method from ArithmeticOperators Class... "+ aObj.div(c,d));
+		System.out.println();
+		System.out.println("Using Modulus method from ArithmeticOperators Class... "+ aObj.mod(c,d));
+		System.out.println();
+		System.out.println("Using Pre-Decrement method from ArithmeticOperators Class... "+ aObj.preDecre(c));
+		System.out.println();
+		System.out.println("Using Pre-Increment method from ArithmeticOperators Class... "+ aObj.preIncre(c));
+		System.out.println();
+		System.out.println("Using Post-Decrement method from ArithmeticOperators Class... "+ aObj.postDecre(d));
+		System.out.println();
+		System.out.println("Using Post-Increment method from ArithmeticOperators Class... "+ aObj.postIncre(d));
+		System.out.println();
+		
+		//Logical Operators
+		boolean e = true, f = false;
+		System.out.println("Using && Method from LogicalOperators Class... "+ lObj.andOperator(e,f));
+		System.out.println();
+		System.out.println("Using || Method from LogicalOperators Class... "+ lObj.orOperator(e,f));
+		System.out.println();
+		System.out.println("Using ! Method from LogicalOperators Class... "+ lObj.notOperator(e&&f));
+		System.out.println();
+		*/
+		
+		
+	}
+}
