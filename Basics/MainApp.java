@@ -1,15 +1,27 @@
 import Operators.*;
 import ControlStatements.*;
 import Input.*;
+import ArrayFolder.*;
 
 public class MainApp 
 {
 	public static void main(String[] args) 
 	{
 		//Let's create objects first
-		IfandElse Obj1 = new IfandElse();
-		SwitchCase Obj2 = new SwitchCase();
-		MyInput myInput = new MyInput();
+		IfandElse obj1 = new IfandElse();
+		SwitchCase obj2 = new SwitchCase();
+		Loops obj3 = new Loops();
+		MyInput newInput = new MyInput();
+		ArrayClass newArray = new ArrayClass();
+	
+		
+		//Playing with Array and Loops
+		//Let's input first
+		int n = newInput.getInt("Enter the Size of Array... ");
+		
+		int arr[] = newArray.defineArray(n);
+		
+		obj3.printArray(arr);
 		
 		//Control Statements
 		/*
@@ -24,13 +36,21 @@ public class MainApp
 		Obj1.checkAgeEligibilityFun(n1);//Checking Age Eligibility with some fun
 		*/
 		
+		/*
 		//Switch Case
 		//Now let's take input (char)
 		char ch = myInput.getChar("Enter character to check if it is a vowel or not... ");
 		Obj2.checkVowels(ch);
+		*/
 		
+		/*
+		//Loops
+		//Now let's take input (int,int)
+		obj3.runLoop(5);
+		obj3.runNestedLoop(5,5);
+		*/
 		
-		myInput.closeScanner();
+		newInput.closeScanner();
 		/*
 		//package Operators
 		ArithmeticOperators aObj = new ArithmeticOperators();
