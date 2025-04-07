@@ -34,7 +34,7 @@ public class Loops
 		int arr[] = new int[n];
 		for(int i = 0; i < n; i++)
 		{
-			arr[i] = i+1;
+			arr[i] = newInput.getInt("Enter number to store in an Array: ");
 		}
 		return arr;
 	}
@@ -42,9 +42,9 @@ public class Loops
 	public void printArray(int arr[])
 	{
 		System.out.println("Printing Array... ");
-		for(int i = 1; i <= arr.length; i++)
+		for(int i = 0; i < arr.length; i++)
 		{
-			System.out.print(i + " ");
+			System.out.print(arr[i] + " ");
 		}
 	}
 }

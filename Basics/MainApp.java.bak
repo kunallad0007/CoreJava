@@ -21,7 +21,12 @@ public class MainApp
 		
 		int arr[] = newArray.defineArray(n);
 		
-		obj3.printArray(arr);
+		for(int i = 1; i <= n; i++)
+		{
+			System.out.print(arr[i]);
+		}
+		
+		//obj3.printArray(arr);
 		
 		//Control Statements
 		/*
@@ -50,7 +55,7 @@ public class MainApp
 		obj3.runNestedLoop(5,5);
 		*/
 		
-		myInput.closeScanner();
+		newInput.closeScanner();
 		/*
 		//package Operators
 		ArithmeticOperators aObj = new ArithmeticOperators();

@@ -21,6 +21,7 @@ public class MainApp
 		
 		int arr[] = newArray.defineArray(n);
 		
+		
 		obj3.printArray(arr);
 		
 		//Control Statements
