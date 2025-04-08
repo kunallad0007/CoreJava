@@ -10,7 +10,7 @@ This repository is more than just practice — it’s a public display of consis
 
 ## 🔧 Tech Used
 
-- **Language**: Java (JDK 17)
+- **Language**: Java (JDK 21)
 - **Editor**: EditPlus (switching to IntelliJ/VSCode soon)
 - **Version Control**: Git & GitHub
 
