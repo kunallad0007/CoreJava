@@ -11,22 +11,17 @@ public class MainApp
 		IfandElse obj1 = new IfandElse();
 		SwitchCase obj2 = new SwitchCase();
 		Loops obj3 = new Loops();
-		MyInput newInput = new MyInput();
+		MyInput myInput = new MyInput();
 		ArrayClass newArray = new ArrayClass();
 	
 		
 		//Playing with Array and Loops
 		//Let's input first
-		int n = newInput.getInt("Enter the Size of Array... ");
+		int n = myInput.getInt("Enter the Size of Array... ");
 		
-		int arr[] = newArray.defineArray(n);
+		newArray(n);
 		
-		for(int i = 1; i <= n; i++)
-		{
-			System.out.print(arr[i]);
-		}
-		
-		//obj3.printArray(arr);
+		obj3.printArray(newArray);
 		
 		//Control Statements
 		/*
@@ -55,7 +50,7 @@ public class MainApp
 		obj3.runNestedLoop(5,5);
 		*/
 		
-		newInput.closeScanner();
+		myInput.closeScanner();
 		/*
 		//package Operators
 		ArithmeticOperators aObj = new ArithmeticOperators();
