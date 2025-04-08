@@ -1,6 +1,6 @@
 import JavaBasics.GetInput;
 import JavaBasics.IfElse;
-public class MainApp1 {
+public class MainApp {
     public static void main(String[] args) {
 
         GetInput newInput = new GetInput();//creating object
