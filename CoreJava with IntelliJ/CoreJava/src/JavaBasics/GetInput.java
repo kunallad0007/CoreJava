@@ -1,4 +1,4 @@
-package JavaClasses;
+package JavaBasics;
 import java.util.Scanner;
 public class GetInput {
     Scanner sc = new Scanner(System.in);

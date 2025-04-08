@@ -1,4 +1,4 @@
-package JavaClasses;
+package JavaBasics;
 
 public class NewArrayClass {
     GetInput newInput = new GetInput();

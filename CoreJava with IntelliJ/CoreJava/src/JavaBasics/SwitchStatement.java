@@ -1,4 +1,4 @@
-package JavaClasses;
+package JavaBasics;
 
 public class SwitchStatement {
     public void checkVowels(char ch){

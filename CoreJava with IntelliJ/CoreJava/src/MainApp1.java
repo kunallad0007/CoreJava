@@ -1,8 +1,6 @@
-import JavaClasses.SwitchStatement;
-import JavaClasses.GetInput;
-import JavaClasses.NewArrayClass;
-import JavaClasses.IfElse;
-public class Main {
+import JavaBasics.GetInput;
+import JavaBasics.IfElse;
+public class MainApp1 {
     public static void main(String[] args) {
 
         GetInput newInput = new GetInput();//creating object
@@ -12,7 +10,7 @@ public class Main {
         int n = newInput.getInt();
         newIfElse.checkDrivingAge(n);
 
-        /* To use the below code just uncomment any section
+        /* To use the below code just uncomment the section
         //Using NewArrayClass and defineArray() from JavaClasses Package
         NewArrayClass newArray = new NewArrayClass(); //creating object
         System.out.print("Enter the size of array: ");
@@ -21,7 +19,8 @@ public class Main {
         int[] arr = newArray.defineArray(n);
         newArray.printArray(arr);
         */
-        /*
+
+        /*To use the below code just uncomment the section
         //SwitchStatement newSwitch = new SwitchStatement();
         //Check Vowel Code
         char ch = newInput.getChar("Enter any character: ");
