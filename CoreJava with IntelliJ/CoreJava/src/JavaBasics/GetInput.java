@@ -11,6 +11,10 @@ public class GetInput {
         return sc.next().charAt(0);
     }
 
+    public String getString(){
+        return sc.nextLine();
+    }
+
     public void closeInput(){
         sc.close();
     }
