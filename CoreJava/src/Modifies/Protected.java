@@ -1,7 +1,7 @@
 package Modifies;
 import java.util.Scanner;
 
-class Protected{
+public class Protected{
 
     final Scanner sc = new Scanner(System.in);
 
@@ -21,7 +21,7 @@ class ProtectedChild extends Protected {
 
 }
 
-public class ProtectModifier {
+class ProtectModifier {
     public static void main(String[] args) {
         ProtectedChild obj = new ProtectedChild();
         obj.inputName();
